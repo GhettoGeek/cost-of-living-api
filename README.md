@@ -2,6 +2,8 @@
 
 > Unofficial [Numbeo Cost of Living](https://www.numbeo.com/cost-of-living/) JSON API
 
+To access our API, if you want to use http connection please use URL prefix http://www.numbeo.com:8008/api/ (this might not work in a browser that uses HSTS while it should work in command line clients such as wget or curl). If you want to use secure https connection please use URL prefix https://www.numbeo.com/api/
+
 ## Getting Started
 
 First, install dependencies:
